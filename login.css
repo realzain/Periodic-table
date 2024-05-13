@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    /* padding: 5px; */
+
+
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    display:inline-flex;
+    margin-top: 66px;
+}
+.logo2{
+    width: 30px;
+    height: 30px;
+    display:inline-flex;
+}
+.hading{
+    display:inline-flex;
+    font-weight:800;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 20px; */
+    color: #FFFFFF;
+}
+.heding2{
+    display: inline-flex;
+    font-weight:500;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-weight: 800;
+}
+.main{
+    /* width: 700px; */
+    /* height: 440px; */
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px gray;
+    border-radius: 20px 20px 0 0;
+    margin-top: 50px;
+}
+/* .c1{
+    width: 100%;
+    height: 200px;
+} */
+.c2{
+    width: 275px;
+    height: 440px;
+    /* padding: 10px; */
+    color: #FFFFFF;
+    border-radius: 20px 0 0 0;
+}
+.c3{
+    width: 475px;
+    height: 440px;
+    border-left: 1px solid black;
+    background-color: #a19f9f;
+    border-radius: 0 20px 0 0;
+}
+.cuntainer{
+    text-align: center;
+    justify-content: center;
+    width: 1462px;
+    height: 777px;
+}
+.but{
+    width: 220px;
+    height: 40px;
+    color: #FFFFFF;
+}
+.para{
+    font-weight: 590;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.inp{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    width: 420px;
+}
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-field {
+    width: calc(100% - 30px); /* Adjust as needed */
+    padding-right: 30px; /* Space for the eye icon */
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.but2{
+    width: 380px;
+    height: 50px;
+}
+.font-weight-bold{
+    font-weight: 500;
+    margin-top: 30px;
+}

@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Periodic Table</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/periodic-table.png">
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> BOOTSTRAP LINK >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FILE LINK >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <link rel="stylesheet" href="index.CSS">
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FONT LINK >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="background-color:#212529;">
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NAV BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid" style="background-color: #0890BC;">
+            <a class="navbar-brand" href="#"> To &nbsp;&nbsp;Get &nbsp;&nbsp;Knowledge.</a>
+            <div style="margin-left: 800px;">
+<a href="#about" class="active">About</a>
+<a href="#table" class="active">Table</a>
+<a href="#targetDiv" class="active">Contact</a>
+</div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"
+                        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">To
+                        &nbsp;&nbsp;Get &nbsp;&nbsp;Knowledge.
+                    </h5>
+                    
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href=""> <i class="fa fa-home"
+                                    style="color: #FFFFFF; font-size: 30px;"></i>Home</a>
+                            <!-- </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Other info!
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">About</a></li>
+                                <li><a class="dropdown-item" href="#targetDiv" id="scrollButton">Contact Us</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Registration Page</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> LOGIN >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <div class="login-main">
+        <div class="icon" style="display: inline-flex;">
+            <a href="http://127.0.0.1:5500/Preodic%20table/PreodicTable.html?"><i class="fa fa-facebook" style="font-size: 20px; color: #1974EC; cursor: pointer;"></i></a>&nbsp;&nbsp;&nbsp;
+            <a href="http://127.0.0.1:5500/Preodic%20table/PreodicTable.html?"><i class="fa fa-instagram" style="font-size: 20px; color: #9928AA; cursor: pointer;"></i></a>&nbsp;&nbsp;&nbsp;
+            <a href="http://127.0.0.1:5500/Preodic%20table/PreodicTable.html?"><i class="fa fa-twitter" style="font-size: 20px; color: #45b8ff; cursor: pointer;"></i></a>&nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="login" style="display: inline-flex; margin-left: 1090px;">
+            <a href="login.html"><button class="btn btn-primary" style="width: 140px; height: 50px;">sing up \ log in</button></a>
+        </div>
+
+    </div>
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> MAIN HEADING >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <div class="head">
+        <h1 style="color:#222831 ;">'Periodic Table'</h1>
+    </div>
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ABOUT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <div class="about" id="about">
+        <h2>About:</h2>
+        <p>
+            <span class="def-arrangement">The periodic table, also known as</span> the periodic table of the elements,
+            is an ordered arrangement of the
+            chemical elements into rows and columns. It is an icon of chemistry and is widely used in physics and other
+            sciences. <a href="https://en.wikipedia.org/wiki/Periodic_table" target="_blank"
+                style="color: #7b2daf;">Wikipedia</a> <br><br> <span class="def-arrangement-2">It's called the periodic
+                table because of </span> the way the elements are arranged. The table is arranged into columns and rows.
+            The vertical columns are called 'groups' and the horizontal rows are called 'periods'. Elements that show up
+            in the same groups (columns) have similar properties.
+        </p>
+    </div>
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PERIODIC TABLE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+    <div class="main-container" id="table" style="background-image: url(chemicals.avif);">
+        <table>
+            <form>
+                <tr class="row-1">
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Hydrogen', '_blank');">
+                            <div class="heading">1 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[1.0078]</span>
+                            </div>
+                            <div class="title">H</div>
+                            <div class="description">Hydrogen</div>
+                        </button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button class="border-settings" style="background-color: #623842;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Helium', '_blank');">
+                            <div class="heading">2 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[2.0141]</span>
+                            </div>
+                            <div class="title">He</div>
+                            <div class="description">Helium</div>
+                        </button>
+                    </td>
+                </tr>
+                <tr class="row-2">
+                    <td>
+                        <button class="border-settings" style="background-color: #244D57;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Lithium', '_blank');">
+                            <div class="heading">3 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[6.9410]</span>
+                            </div>
+                            <div class="title">Li</div>
+                            <div class="description">Lithium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #622E39;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Beryllium', '_blank');">
+                            <div class="heading">4 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[7.0160]</span>
+                            </div>
+                            <div class="title">Be</div>
+                            <div class="description">Beryllium</div>
+                        </button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button class="border-settings" style="background-color: #523E1B;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Boron', '_blank');">
+                            <div class="heading">5 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[8.0132]</span>
+                            </div>
+                            <div class="title">B</div>
+                            <div class="description">Boron</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Carbon', '_blank');">
+                            <div class="heading">6 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[9.0220]</span>
+                            </div>
+                            <div class="title">C</div>
+                            <div class="description">Carbon</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Nitrogen', '_blank');">
+                            <div class="heading">7 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[10.811]</span>
+                            </div>
+                            <div class="title">N</div>
+                            <div class="description">Nitrogen</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Oxygen', '_blank');">
+                            <div class="heading">8 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[12.0107]</span>
+                            </div>
+                            <div class="title">O</div>
+                            <div class="description">Oxygen</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Fluorine', '_blank');">
+                            <div class="heading">9 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[14.0067]</span>
+                            </div>
+                            <div class="title">F</div>
+                            <div class="description">Fluorine</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #623842;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Neon', '_blank');">
+                            <div class="heading">10 &nbsp;&nbsp; <span
+                                    style="font: 500 8px sans-serif;">[15.9994]</span>
+                            </div>
+                            <div class="title">Ne</div>
+                            <div class="description">Neon</div>
+                        </button>
+                    </td>
+                </tr>
+                <tr class="row-3">
+                    <td>
+                        <button class="border-settings" style="background-color: #244D57;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Sodium', '_blank');">
+                            <div class="heading">11 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[22.990]</span>
+                            </div>
+                            <div class="title">Na</div>
+                            <div class="description">Sodium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #622E39;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Magnesium', '_blank');">
+                            <div class="heading">12 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[24.305]</span>
+                            </div>
+                            <div class="title">Mg</div>
+                            <div class="description">Magnesium</div>
+                        </button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button class="border-settings" style="background-color: #2F4D47;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Aluminum', '_blank');">
+                            <div class="heading">13 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[26.981]</span>
+                            </div>
+                            <div class="title">Al</div>
+                            <div class="description">Aluminum</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #523E1B;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Silicon', '_blank');">
+                            <div class="heading">14 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[28.085]</span>
+                            </div>
+                            <div class="title">Si</div>
+                            <div class="description">Silicon</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Phosphorus', '_blank');">
+                            <div class="heading">15 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[30.973]</span>
+                            </div>
+                            <div class="title">P</div>
+                            <div class="description">Phosphorus</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Sulfur', '_blank');">
+                            <div class="heading">16 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[32.065]</span>
+                            </div>
+                            <div class="title">S</div>
+                            <div class="description">Sulfur</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Chlorine', '_blank');">
+                            <div class="heading">17 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[35.453]</span>
+                            </div>
+                            <div class="title">Cl</div>
+                            <div class="description">Chlorine</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #623842;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Argon', '_blank');">
+                            <div class="heading">18 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[39.948]</span>
+                            </div>
+                            <div class="title">Ar</div>
+                            <div class="description">Argon</div>
+                        </button>
+                    </td>
+                </tr>
+
+                <tr class="row-4">
+                    <td>
+                        <button class="border-settings" style="background-color: #244D57;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Potassium', '_blank');">
+                            <div class="heading">19 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[39.098]</span>
+                            </div>
+                            <div class="title">K</div>
+                            <div class="description">Potassium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #622E39;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Calcium', '_blank');">
+                            <div class="heading">20 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[40.078]</span>
+                            </div>
+                            <div class="title">Ca</div>
+                            <div class="description">Calcium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Scandium', '_blank');">
+                            <div class="heading">21 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[44.955]</span>
+                            </div>
+                            <div class="title">Sc</div>
+                            <div class="description">Scandium</div>
+                        </button>
+                    </td>
+                    <td class="pad">
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Titanium', '_blank');">
+                            <div class="heading">22 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[50.941]</span>
+                            </div>
+                            <div class="title">Ti</div>
+                            <div class="description">Titanium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Vanadium', '_blank');">
+                            <div class="heading">23 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[58.693]</span>
+                            </div>
+                            <div class="title">V</div>
+                            <div class="description">Vanadium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Chromium', '_blank');">
+                            <div class="heading">24 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[63.546]</span>
+                            </div>
+                            <div class="title">Cr</div>
+                            <div class="description">Chromium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Manganese', '_blank');">
+                            <div class="heading">25 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[69.723]</span>
+                            </div>
+                            <div class="title">Mn</div>
+                            <div class="description">Manganese</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Iron', '_blank');">
+                            <div class="heading">26 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[72.64]</span>
+                            </div>
+                            <div class="title">Fe</div>
+                            <div class="description">Iron</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Cobalt', '_blank');">
+                            <div class="heading">27 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[74.921]</span>
+                            </div>
+                            <div class="title">Co</div>
+                            <div class="description">Cobalt</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Nickel', '_blank');">
+                            <div class="heading">28 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[78.96]</span>
+                            </div>
+                            <div class="title">Ni</div>
+                            <div class="description">Nickel</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Copper', '_blank');">
+                            <div class="heading">29 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[83.80]</span>
+                            </div>
+                            <div class="title">Cu</div>
+                            <div class="description">Copper</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Zinc', '_blank');">
+                            <div class="heading">30 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[85.467]</span>
+                            </div>
+                            <div class="title">Zn</div>
+                            <div class="description">Zinc</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #2F4D47;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Gallium', '_blank');">
+                            <div class="heading">31 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[87.62]</span>
+                            </div>
+                            <div class="title">Ga</div>
+                            <div class="description">Gallium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #523E1B;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Germanium', '_blank');">
+                            <div class="heading">32 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[91.224]</span>
+                            </div>
+                            <div class="title">Ge</div>
+                            <div class="description">Germanium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #523E1B;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Arsenic', '_blank');">
+                            <div class="heading">33 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[92.906]</span>
+                            </div>
+                            <div class="title">As</div>
+                            <div class="description">Arsenic</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Selenium', '_blank');">
+                            <div class="heading">34 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[95.94]</span>
+                            </div>
+                            <div class="title">Se</div>
+                            <div class="description">Selenium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Bromine', '_blank');">
+                            <div class="heading">35 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[101.07]</span>
+                            </div>
+                            <div class="title">Br</div>
+                            <div class="description">Bromine</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #623842;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Krypton', '_blank');">
+                            <div class="heading">36 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[102.90]</span>
+                            </div>
+                            <div class="title">Kr</div>
+                            <div class="description">Krypton</div>
+                        </button>
+                    </td>
+                </tr>
+
+                <tr class="row-5">
+                    <td>
+                        <button class="border-settings" style="background-color: #244D57;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Rubidium', '_blank');">
+                            <div class="heading">37 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[85.468]</span>
+                            </div>
+                            <div class="title">Rb</div>
+                            <div class="description">Rubidium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #622E39;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Strontium', '_blank');">
+                            <div class="heading">38 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[87.62]</span>
+                            </div>
+                            <div class="title">Sr</div>
+                            <div class="description">Strontium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Yttrium', '_blank');">
+                            <div class="heading">39 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[89.904]</span>
+                            </div>
+                            <div class="title">Y</div>
+                            <div class="description">Yttrium</div>
+                        </button>
+                    </td>
+                    <td class="pad">
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Zirconium', '_blank');">
+                            <div class="heading">40 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[91.224]</span>
+                            </div>
+                            <div class="title">Zr</div>
+                            <div class="description">Zirconium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Niobium', '_blank');">
+                            <div class="heading">41 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[92.906]</span>
+                            </div>
+                            <div class="title">Nb</div>
+                            <div class="description">Niobium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Molybdenum', '_blank');">
+                            <div class="heading">42 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[95.94]</span>
+                            </div>
+                            <div class="title">Mo</div>
+                            <div class="description">Molybdenum</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Technetium', '_blank');">
+                            <div class="heading">43 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[101.07]</span>
+                            </div>
+                            <div class="title">Tc</div>
+                            <div class="description">Technetium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Ruthenium', '_blank');">
+                            <div class="heading">44 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[102.90]</span>
+                            </div>
+                            <div class="title">Ru</div>
+                            <div class="description">Ruthenium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Rhodium', '_blank');">
+                            <div class="heading">45 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[106.42]</span>
+                            </div>
+                            <div class="title">Rh</div>
+                            <div class="description">Rhodium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Palladium', '_blank');">
+                            <div class="heading">46 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[107.86]</span>
+                            </div>
+                            <div class="title">Pd</div>
+                            <div class="description">Palladium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Silver', '_blank');">
+                            <div class="heading">47 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[108.90]</span>
+                            </div>
+                            <div class="title">Ag</div>
+                            <div class="description">Silver</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Cadmium', '_blank');">
+                            <div class="heading">48 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[112.41]</span>
+                            </div>
+                            <div class="title">Cd</div>
+                            <div class="description">Cadmium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #2F4D47;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Indium', '_blank');">
+                            <div class="heading">49 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[114.82]</span>
+                            </div>
+                            <div class="title">In</div>
+                            <div class="description">Indium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #2F4D47;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Tin', '_blank');">
+                            <div class="heading">50 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[118.71]</span>
+                            </div>
+                            <div class="title">Sn</div>
+                            <div class="description">Tin</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #523E1B;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Antimony', '_blank');">
+                            <div class="heading">51 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[121.76]</span>
+                            </div>
+                            <div class="title">Sb</div>
+                            <div class="description">Antimony</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #523E1B;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Tellurium', '_blank');">
+                            <div class="heading">52 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[127.60]</span>
+                            </div>
+                            <div class="title">Te</div>
+                            <div class="description">Tellurium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color:#2A4165;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Iodine', '_blank');">
+                            <div class="heading">53 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[131.29]</span>
+                            </div>
+                            <div class="title">I</div>
+                            <div class="description">Iodine</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #623842;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Xenon', '_blank');">
+                            <div class="heading">54 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[132.90]</span>
+                            </div>
+                            <div class="title">Xe</div>
+                            <div class="description">Xenon</div>
+                        </button>
+                    </td>
+                </tr>
+
+                <tr class="row-6">
+                    <td>
+                        <button class="border-settings" style="background-color: #244D57;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Cesium', '_blank');">
+                            <div class="heading">55 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[132.91]</span>
+                            </div>
+                            <div class="title">CS</div>
+                            <div class="description">Cesium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #622E39;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Barium', '_blank');">
+                            <div class="heading">56 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[137.33]</span>
+                            </div>
+                            <div class="title">Ba</div>
+                            <div class="description">Barium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #004A77;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Lanthanum', '_blank');">
+                            <div class="heading">57 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[138.90]</span>
+                            </div>
+                            <div class="title">La</div>
+                            <div class="description">Lanthanum</div>
+                        </button>
+                    </td>
+                    <td class="pad">
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Hafnium', '_blank');">
+                            <div class="heading">72 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[178.49]</span>
+                            </div>
+                            <div class="title">Hf</div>
+                            <div class="description">Hafnium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Tantalum', '_blank');">
+                            <div class="heading">73 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[180.94]</span>
+                            </div>
+                            <div class="title">Ta</div>
+                            <div class="description">Tantalum</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Tungsten', '_blank');">
+                            <div class="heading">74 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[183.84]</span>
+                            </div>
+                            <div class="title">W</div>
+                            <div class="description">Tungsten</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Rhenium', '_blank');">
+                            <div class="heading">75 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[186.20]</span>
+                            </div>
+                            <div class="title">Re</div>
+                            <div class="description">Rhenium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Osmium', '_blank');">
+                            <div class="heading">76 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[190.23]</span>
+                            </div>
+                            <div class="title">Os</div>
+                            <div class="description">Osmium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Iridium', '_blank');">
+                            <div class="heading">77 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[192.21]</span>
+                            </div>
+                            <div class="title">Ir</div>
+                            <div class="description">Iridium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Platinum', '_blank');">
+                            <div class="heading">78 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[195.08]</span>
+                            </div>
+                            <div class="title">Pt</div>
+                            <div class="description">Platinum</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Gold', '_blank');">
+                            <div class="heading">79 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[196.96]</span>
+                            </div>
+                            <div class="title">Au</div>
+                            <div class="description">Gold</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Mercury', '_blank');">
+                            <div class="heading">80 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[200.59]</span>
+                            </div>
+                            <div class="title">Hg</div>
+                            <div class="description">Mercury</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #2F4D47;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Thallium', '_blank');">
+                            <div class="heading">81 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[204.38]</span>
+                            </div>
+                            <div class="title">Tl</div>
+                            <div class="description">Thallium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #2F4D47;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Lead', '_blank');">
+                            <div class="heading">82 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[207.2]</span>
+                            </div>
+                            <div class="title">Pb</div>
+                            <div class="description">Lead</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #2F4D47;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Bismuth', '_blank');">
+                            <div class="heading">83 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[208.98]</span>
+                            </div>
+                            <div class="title">Bi</div>
+                            <div class="description">Bismuth</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #2F4D47;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Polonium', '_blank');">
+                            <div class="heading">84 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[209]</span>
+                            </div>
+                            <div class="title">Po</div>
+                            <div class="description">Polonium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #2F4D47;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Astatine', '_blank');">
+                            <div class="heading">85 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[210]</span>
+                            </div>
+                            <div class="title">At</div>
+                            <div class="description">Astatine</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #623842;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Radon', '_blank');">
+                            <div class="heading">86 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[222]</span>
+                            </div>
+                            <div class="title">Rn</div>
+                            <div class="description">Radon</div>
+                        </button>
+                    </td>
+                </tr>
+
+                <tr class="row-7">
+                    <td>
+                        <button class="border-settings" style="background-color: #244D57;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Francium', '_blank');">
+                            <div class="heading">87 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[223]</span>
+                            </div>
+                            <div class="title">Fr</div>
+                            <div class="description">Francium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #622E39;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Radium', '_blank');">
+                            <div class="heading">88 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[226]</span>
+                            </div>
+                            <div class="title">Ra</div>
+                            <div class="description">Radium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #613B28;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Actinium', '_blank');">
+                            <div class="heading">89 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[227]</span>
+                            </div>
+                            <div class="title">Ac</div>
+                            <div class="description">Actinium</div>
+                        </button>
+                    </td>
+                    <td class="pad">
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Rutherfordium', '_blank');">
+                            <div class="heading">104 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[267]</span>
+                            </div>
+                            <div class="title">Rf</div>
+                            <div class="description">Rutherfordium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Dubnium', '_blank');">
+                            <div class="heading">105 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[262]</span>
+                            </div>
+                            <div class="title">Db</div>
+                            <div class="description">Dubnium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Seaborgium', '_blank');">
+                            <div class="heading">106 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[269]</span>
+                            </div>
+                            <div class="title">Sg</div>
+                            <div class="description">Seaborgium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Bohrium', '_blank');">
+                            <div class="heading">107 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[264]</span>
+                            </div>
+                            <div class="title">Bh</div>
+                            <div class="description">Bohrium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #433C65;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Hassium', '_blank');">
+                            <div class="heading">108 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[269]</span>
+                            </div>
+                            <div class="title">Hs</div>
+                            <div class="description">Hassium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #46474C;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Meitnerium', '_blank');">
+                            <div class="heading">109 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[278]</span>
+                            </div>
+                            <div class="title">Mt</div>
+                            <div class="description">Meitnerium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #46474C;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Darmstadtium', '_blank');">
+                            <div class="heading">110 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[281]</span>
+                            </div>
+                            <div class="title">Ds</div>
+                            <div class="description">Darmstadtium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #46474C;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Roentgenium', '_blank');">
+                            <div class="heading">111 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[282]</span>
+                            </div>
+                            <div class="title">Rg</div>
+                            <div class="description">Roentgenium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #46474C;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Copernicium', '_blank');">
+                            <div class="heading">112 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[285]</span>
+                            </div>
+                            <div class="title">Cn</div>
+                            <div class="description">Copernicium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #46474C;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Ununtrium', '_blank');">
+                            <div class="heading">113 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[286]</span>
+                            </div>
+                            <div class="title">Uut</div>
+                            <div class="description">Ununtrium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #46474C;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Flerovium', '_blank');">
+                            <div class="heading">114 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[289]</span>
+                            </div>
+                            <div class="title">Fl</div>
+                            <div class="description">Flerovium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #46474C;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Moscovium', '_blank');">
+                            <div class="heading">115 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[289]</span>
+                            </div>
+                            <div class="title">Mc</div>
+                            <div class="description">Moscovium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #46474C;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Livermorium', '_blank');">
+                            <div class="heading">116 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[293]</span>
+                            </div>
+                            <div class="title">Lv</div>
+                            <div class="description">Livermorium</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #46474C;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Tennessine', '_blank');">
+                            <div class="heading">117 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[294]</span>
+                            </div>
+                            <div class="title">Ts</div>
+                            <div class="description">Tennessine</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="border-settings" style="background-color: #46474C;"
+                            onclick="window.open('https://en.wikipedia.org/wiki/Oganesson', '_blank');">
+                            <div class="heading">118 &nbsp;&nbsp; <span style="font: 500 8px sans-serif;">[294]</span>
+                            </div>
+                            <div class="title">Og</div>
+                            <div class="description">Oganesson</div>
+                        </button>
+                    </td>
+                </tr>
+
+                <table class="table-2">
+                    <div style="margin-top: 50px;">
+                        <tr class="row-1">
+
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Cerium', '_blank');">
+                                    <div class="heading">58 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[140.12]</span>
+                                    </div>
+                                    <div class="title">Ce</div>
+                                    <div class="description">Cerium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Prasodymium', '_blank');">
+                                    <div class="heading">59 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[140.91]</span>
+                                    </div>
+                                    <div class="title">Pr</div>
+                                    <div class="description">Prasodymium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Neodymium', '_blank');">
+                                    <div class="heading">60 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[141.91]</span>
+                                    </div>
+                                    <div class="title">Nd</div>
+                                    <div class="description">Neodymium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Promethium', '_blank');">
+                                    <div class="heading">61 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[142.90]</span>
+                                    </div>
+                                    <div class="title">Pm</div>
+                                    <div class="description">Promethium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Samarium', '_blank');">
+                                    <div class="heading">62 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[144.24]</span>
+                                    </div>
+                                    <div class="title">Sm</div>
+                                    <div class="description">Samarium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Europium', '_blank');">
+                                    <div class="heading">63 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[145]</span>
+                                    </div>
+                                    <div class="title">Eu</div>
+                                    <div class="description">Europium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Gadolinium', '_blank');">
+                                    <div class="heading">64 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[146]</span>
+                                    </div>
+                                    <div class="title">Gd</div>
+                                    <div class="description">Gadolinium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Terbium', '_blank');">
+                                    <div class="heading">65 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[147]</span>
+                                    </div>
+                                    <div class="title">Tb</div>
+                                    <div class="description">Terbium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Dysprosium', '_blank');">
+                                    <div class="heading">66 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[148]</span>
+                                    </div>
+                                    <div class="title">Dy</div>
+                                    <div class="description">Dysprosium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Holmium', '_blank');">
+                                    <div class="heading">67 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[149]</span>
+                                    </div>
+                                    <div class="title">Ho</div>
+                                    <div class="description">Holmium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Erbium', '_blank');">
+                                    <div class="heading">68 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[150]</span>
+                                    </div>
+                                    <div class="title">Er</div>
+                                    <div class="description">Erbium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Thulium', '_blank');">
+                                    <div class="heading">69 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[151]</span>
+                                    </div>
+                                    <div class="title">Tm</div>
+                                    <div class="description">Thulium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Ytterbium', '_blank');">
+                                    <div class="heading">70 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[152]</span>
+                                    </div>
+                                    <div class="title">Yb</div>
+                                    <div class="description">Ytterbium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #004A77;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Lutetium', '_blank');">
+                                    <div class="heading">71 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[153]</span>
+                                    </div>
+                                    <div class="title">Lu</div>
+                                    <div class="description">Lutetium</div>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr class="row-2">
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Thorium', '_blank');">
+                                    <div class="heading">90 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[154]</span>
+                                    </div>
+                                    <div class="title">Th</div>
+                                    <div class="description">Thorium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Protactinium', '_blank');">
+                                    <div class="heading">91 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[155]</span>
+                                    </div>
+                                    <div class="title">Pa</div>
+                                    <div class="description">Protactinium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Uranium', '_blank');">
+                                    <div class="heading">92 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[156]</span>
+                                    </div>
+                                    <div class="title">U</div>
+                                    <div class="description">Uranium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Neptunium', '_blank');">
+                                    <div class="heading">93 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[157]</span>
+                                    </div>
+                                    <div class="title">Np</div>
+                                    <div class="description">Neptunium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Plutonium, '_blank');">
+                                    <div class="heading">94 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[158]</span>
+                                    </div>
+                                    <div class="title">Pu</div>
+                                    <div class="description">Plutonium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Americium', '_blank');">
+                                    <div class="heading">95 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[159]</span>
+                                    </div>
+                                    <div class="title">Am</div>
+                                    <div class="description">Americium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Curium', '_blank');">
+                                    <div class="heading">96 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[160]</span>
+                                    </div>
+                                    <div class="title">Cm</div>
+                                    <div class="description">Curium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Berkelium', '_blank');">
+                                    <div class="heading">97 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[161]</span>
+                                    </div>
+                                    <div class="title">Bk</div>
+                                    <div class="description">Berkelium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Californium', '_blank');">
+                                    <div class="heading">98 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[162]</span>
+                                    </div>
+                                    <div class="title">Cf</div>
+                                    <div class="description">Californium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Einsteinium', '_blank');">
+                                    <div class="heading">99 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[163]</span>
+                                    </div>
+                                    <div class="title">Es</div>
+                                    <div class="description">Einsteinium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Fermium', '_blank');">
+                                    <div class="heading">100 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[164]</span>
+                                    </div>
+                                    <div class="title">Fm</div>
+                                    <div class="description">Fermium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Mendelevium', '_blank');">
+                                    <div class="heading">101 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[165]</span>
+                                    </div>
+                                    <div class="title">Md</div>
+                                    <div class="description">Mendelevium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Nobelium', '_blank');">
+                                    <div class="heading">102 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[166]</span>
+                                    </div>
+                                    <div class="title">No</div>
+                                    <div class="description">Nobelium</div>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="border-settings" style="background-color: #613B28;"
+                                    onclick="window.open('https://en.wikipedia.org/wiki/Lawrencium', '_blank');">
+                                    <div class="heading">103 &nbsp;&nbsp; <span
+                                            style="font: 500 8px sans-serif;">[167]</span>
+                                    </div>
+                                    <div class="title">Lr</div>
+                                    <div class="description">Lawrencium</div>
+                                </button>
+                            </td>
+                        </tr>
+                    </div>
+                </table>
+
+            </form>
+        </table>
+
+        <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> UL LIST >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+        <div class="list">
+            <ul class="ul-s">
+                <li class="inner" style="color: #244D57;"><a href=""></a> <span style="color: #FFFFFF;">Alkali
+                        metals</span></li>
+                <li class="inner" style="color: #622E39;"><a href=""></a><span style="color: #FFFFFF;">Alkaline earth
+                        metals</span>
+                </li>
+                <li class="inner" style="color: #433C65;"><a href=""></a><span style="color: #FFFFFF;">Transition
+                        metals</span></li>
+            </ul>
+            <ul class="ul-s">
+                <li class="inner" style="color: #6c9089;"><a href=""></a><span style="color: #FFFFFF;">Post-transition
+                        metals</span>
+                </li>
+                <li class="inner" style="color: #523E1B;"><a href=""></a><span style="color: #FFFFFF;">Metalloids</span>
+                </li>
+                <li class="inner" style="color: #2A4165;"><a href=""></a><span style="color: #FFFFFF;">Reactive
+                        non-metals</span></li>
+            </ul>
+            <ul class="ul-s">
+                <li class="inner" style="color: #623842;"><a href=""></a><span style="color: #FFFFFF;">Noble
+                        gases</span></li>
+                <li class="inner" style="color: #004A77;"><a href=""></a><span
+                        style="color: #FFFFFF;">Lanthanides</span></li>
+            </ul>
+            <ul class="ul-s">
+                <li class="inner" style="color: #613B28;"><a href=""></a><span style="color: #FFFFFF;">Actinides</span>
+                </li>
+                <li class="inner" style="color: #46474C;"><a href=""></a><span style="color: #FFFFFF;">Unknown
+                        properties</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> BOTTUM NAVBAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <div id="targetDiv" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 300px; width: 1440px; background-color: #212529; margin-top: 22px; box-shadow: 0 0 10px #FFFFFF; border-radius: 10px;">
+        <h2 class="nav-head" style="background-color: #53354A;">To&nbsp;&nbsp; Get&nbsp;&nbsp; Knowledge.</h2>
+        <!-- <p class="nav-para">=> &nbsp;You can also contact us on our social media.</p> -->
+        <div class="icons">
+            <a href="http://127.0.0.1:5500/Preodic%20table/PreodicTable.html?" target="_blank"> <i class="fa fa-twitter"
+                    style="color: #45b8ff;"></i></a>
+            <a href="http://127.0.0.1:5500/Preodic%20table/PreodicTable.html?" target="_blank">
+                <i class="fa fa-facebook" style="color: #1974EC;"></i></a>
+            <a href="http://127.0.0.1:5500/Preodic%20table/PreodicTable.html?" target="_blank">
+                <i class="fa fa-instagram" style="color: #9928AA;"></i></a>
+        </div>
+        <div class="log">
+            <span class="reg-info">'Register your self here'</span> <br>
+            <a href="login.html"> <button class="btn btn-outline-primary">Login</button> </a>
+        </div>
+    </div>
+
+    <!-- >>>>>>>>>>>>>>>> BOOT LINK >>>>>>>>>>>>>>>> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- >>>>>>>>>>>>>>>> JQUERY LINK >>>>>>>>>>>>>>>> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- >>>>>>>>>>>>>>>> FILE LINK >>>>>>>>>>>>>>>> -->
+
+    <script src="index.JS"></script>
+</body>
+
+</html>
